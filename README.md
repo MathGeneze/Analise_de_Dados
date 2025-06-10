@@ -2,7 +2,7 @@
 
 <!--------------- 📍 Introdução -------------->
 ## 📍 Introdução
-> Este Projeto foi feito durante a 2° aula da **Jornada Python Hashtag**, onde nos foi apresentado um projeto para analisar uma Base de Dados com 50 mil clientes onde mais que a metade deles está cancelando e temos que descobrir a causa do cancelamento utilizando Gráficos.     
+> Este Projeto foi feito durante a 2° aula da **Jornada Python Hashtag**, onde nos foi apresentado um projeto para analisar uma Base de Dados com 50 mil clientes onde mais que a metade deles está cancelando e temos que descobrir a causa do cancelamento utilizando Análise de Dados e criação de Gráficos.     
 
 &nbsp;
 
