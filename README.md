@@ -1,68 +1,65 @@
 # Projeto - Análise de Cancelamento de Clientes | Intensivão de Python
 
-<!--------------- 📌 Introdução -------------->
-## 📌 Introdução
+<!--------------- 📍 Introdução -------------->
+## 📍 Introdução
 > Este Projeto foi feito durante a 2° aula da **Jornada Python Hashtag**, onde nos foi apresentado um projeto para analisar uma Base de Dados com 50 mil clientes onde mais que a metade deles está cancelando e temos que descobrir a causa do cancelamento utilizando Gráficos.     
 
 &nbsp;
 
-<!----------- Sumário ---------->
-## 📒 Sumário
+<!----------- 📁 Sumário ---------->
+## 📁 Sumário
 - [➥ Explicação do Projeto](#explicação-do-projeto)
 - [➨ Estrutura do Projeto](#estrutura-do-projeto)
 - [➨ Requisitos](#requisitos)
-- [➦ Observações](#observações)
+- [➦ Observação](#observação)
 
 &nbsp;
 
-<!--------------- ♻️ Explicação do Projeto -------------->
-## <a id="explicação-do-projeto">♻️ Explicação do Projeto</a>
-> Temos informações de quase **300 produtos** (ex: *Nome do produto*, *Marca*, *Preço* ... ) em uma planilha e precisamos cadastrá-los no site da empresa diáriamente para fazer um relatório. O objetivo deste projeto é simples: Tornar este processo completamente automático usando Python.
+<!--------------- 🌐 Explicação do Projeto -------------->
+## <a id="explicação-do-projeto">🌐 Explicação do Projeto</a>
+> Temos informações de **50 mil clientes** (ex: *Idade*, *Tempo como cliente*, *assinatura* ... ) em uma planilha. O objetivo deste projeto é: Tratar e Analisar os dados para descobrir o motivo do cancelamento dos clientes usando Python.
 > 
-> ⚑ O processo se baseia em: **Entrar no site da empresa  *⮕*  fazer login  *⮕*  Cadastrar os produtos**.
-> 
-> Para fazer isso de maneira automática, usaremos duas Biblioteca: 
-  * `pyautogui` - Controla os movimentos do Mouse e do Teclado;
-  * `pandas` - Manipulação de dados dos produtos.
-
-&nbsp;
-
-<!--------------- 🗂️ Estrutura do Projeto -------------->
-## <a id="estrutura-do-projeto">🗂️ Estrutura do Projeto</a>
-> - O programa principal está no arquivo `main.py`.
-> - Os dados que serão utilizados estão no arquivo `produtos.csv`.
-
-&nbsp;
-
-<!--------------- ⚙️ Requisitos -------------->
-## <a id="requisitos">⚙️ Requisitos</a>
-* Ter um editor de código instalado (Ex: **VsCode, PyCharm, Jupiter Notebook**).
+⚑ O processo se baseia em 5 passos:
+* **Passo 1:** Importar e Visualizar a Base de Dados.
+   
+ * **Passo 2:** Tratamento de Dados.
+   
+* **Passo 3:** Análise Inicial *(Quantos clientes cancelaram?)*.
+   
+* **Passo 4:** Análise Detalhada *(Descobrir a causa do cancelamento)*.
   
-* Ter o **Python** instalado e atualizado até pelo menos a `versão 3.10`.
-* **Instale** as bibliotecas  `pyautogui` e `pandas` pelo terminal através do comando `pip install pyautogui pandas`.
-* Ter o navegador **Google Chrome** instalado.
+* **Passo 5:** Filtrando a Base de Dados *(Analisar os números do cancelamento removendo o problema)*.
+
+> Para este projeto, usaremos três Biblioteca:
+  * `pandas` - Manipulação de dados dos clientes;
+  * `plotly` - Cria Gráficos Dinâmicos;
+  * `nbformat` - Auxilia o `plotly` na Criação de Gráficos.
 
 &nbsp;
 
-<!--------------- ⚠️ Observações -------------->
-## <a id="observações">⚠️ Observações</a>
-- ❗ O site da empresa não **armazena nenhum dado**, ele foi criado especialmente para a aula e a área de login pode ser preenchida com qualquer informação.
+<!--------------- 📄 Estrutura do Projeto -------------->
+## <a id="estrutura-do-projeto">📄 Estrutura do Projeto</a>
+> - O programa principal está no arquivo `main.ipynb`.
+> - Os dados que serão utilizados estão no arquivo `cancelamentos_sample.csv`.
 
-- ‼️ Este programa foi feito com a especificação de caso o usuário tiver **mais de 1 perfil** no Google, como mostra na imagem abaixo:
+&nbsp;
+
+<!--------------- 🖥️ Requisitos -------------->
+## <a id="requisitos">🖥️ Requisitos</a>
+* Ter um editor de código instalado (Ex: **VsCode, PyCharm**).
+* Ter o **Python** instalado e atualizado até pelo menos a `versão 3.10`.
+* **Instale** as bibliotecas  `plotly`, `pandas` e `nbformat` pelo terminal através do comando `pip install pyautogui pandas nbformat`.
+* **Instale** a extensão **Jupyter** para utilizar os arquivos `ipynb`.
+
+&nbsp;
+
+<!--------------- 💡 Observação -------------->
+## <a id="observação">💡 Observação</a>
+- ❗Para evitar quaisquer tipos de problema no caso de rodar células dentro do arquivo, execute todas de uma vez clicando no botão "Executar Tudo".
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/79759fb5-7802-4004-b5fc-4800868b6fda" width="400"/>
+  <img src="https://github.com/user-attachments/assets/f27ab8c6-34d0-4e1e-a892-3ff74e25bae5" width="800"/>
 </p>
-
-- Caso você tenha apenas 1 perfil, entre no arquivo `main.py` e apague o trecho de código da `linha 14` até a `linha 17`.
-
-- Para **encerrar a automação**, basta arrastar o cursor no **canto superior esquerdo** da tela.
-                                                                          
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/da4ae27b-292d-4434-b4ed-2ea6a0e4e0a9" width="300">
-</p>
-
-
 
 
 
